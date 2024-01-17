@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite4/5/2023">
+  <test thread-count="5" name="SmokeTest">
+    <classes>
+      <class name="com.hrsoft.test.apiadminpage.DataManagementApiFeedTestSuit"/>
+      <class name="com.hrsoft.test.compensation.ReviewingPageTestSuite"/>
+     <!-- <class name="com.hrsoft.test.datamanagement.DataManagementFileFeedTestSuit"/>-->
+      <class name="com.hrsoft.test.apimanagement.APIAdminPageTest"/>
+      <class name="com.hrsoft.test.compensation.PlanOverviewPageTestSuite"/>
+      <class name="com.hrsoft.test.smoke.SmokeTestSuite"/>
+      <class name="com.hrsoft.test.tccsecurity.ChannelRendering"/>
+      <class name="com.hrsoft.test.apiadminpage.APIAdminPageTest"/>
+      <class name="com.hrsoft.test.apiadminpage.DataManagementFileFeedTestSuit"/>
+      <class name="com.hrsoft.test.dataview.DataViewSuite"/>
+      <class name="com.hrsoft.test.compensation.PlanningPageTestSuite"/>
+      <class name="com.hrsoft.compensationpages.CompOverviewTest"/>
+      <class name="com.hrsoft.compensationpages.CompManageFilterTest"/>
+      <class name="com.hrsoft.test.rewardsview.ManagerViewTestSuite"/>
+      <class name="com.hrsoft.compensationpages.DistributeFundPageTest"/>
+      <class name="com.hrsoft.test.datamanagement.DataManagementApiFeedTestSuit"/>
+      <class name="com.hrsoft.test.smoke.GenericTestSuite"/>
+      <class name="com.hrsoft.test.compensation.PlanningTestSuit"/>
+      <class name="com.hrsoft.test.homepage.HomePageTestSuite"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- SmokeTestSuite4/5/2023 -->

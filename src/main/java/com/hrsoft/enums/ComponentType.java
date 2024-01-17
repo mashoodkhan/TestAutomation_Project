@@ -1,0 +1,5 @@
+package com.hrsoft.enums;
+
+public enum ComponentType {
+    COMPENSATION, APIADMIN, APIMANAGEMENT, DATAMANAGEMENT, DATAVIEW, HOMEPAGE, REWARDS, CLOUDADMIN; 
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest_Suite">
+	<listeners>
+		<listener class-name="com.hrsoft.reports.ExtentListener" />
+	</listeners>
+	<test name="LinkedIn_SmokeTest">
+		<classes>
+			<class name="com.hrsoft.test.common.LoginLogoutTestSuite">
+				<methods>
+					<include name="ST001_ST002_LoginAndLogout" />
+					<include name="ST003_Validate_Navigating_To_CorrectPages"/>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
