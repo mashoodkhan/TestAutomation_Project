@@ -7,10 +7,7 @@
 	<test name="LinkedIn_SmokeTest">
 		<classes>
 			<class name="com.hrsoft.test.common.LoginLogoutTestSuite">
-				<methods>
-					<include name="ST001_ST002_LoginAndLogout" />
-					<include name="ST003_Validate_Navigating_To_CorrectPages"/>
-				</methods>
+				
 			</class>
 		</classes>
 	</test> <!-- Test -->
