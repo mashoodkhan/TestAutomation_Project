@@ -6,9 +6,7 @@
 	</listeners>
 	<test name="LinkedIn_SmokeTest">
 		<classes>
-			<class name="com.hrsoft.test.common.LoginLogoutTestSuite">
-				
-			</class>
+			<class name="com.hrsoft.test.common.LoginLogoutTestSuite"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
